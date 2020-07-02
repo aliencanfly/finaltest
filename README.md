@@ -87,7 +87,7 @@
 
 	创建归档文件，如：
 
-		 tar -zcvf test.tar.gz 文件名
+		  tar -zcvf test.tar.gz 文件名
 
 + tar -tf 压缩文件名：查看归档文件的内容
 
