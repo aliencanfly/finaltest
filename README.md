@@ -114,3 +114,48 @@ vi 文件名：启动vi编辑器
 		S：光标回到当前行行尾
 
 		/关键字：搜索寻找的字符，一直按n可以向后寻找
+## 9.安装软件命令
++ sudo apt search 关键字 寻找安装文件
+
++ sudo apt install 
+
++ sudo apt remove
+## 10.权限授予
+su root 授予root权限
+r代表可读，用4表示。 w 代表可写，用2表示。 x 代表可执行，用1表示。
+# Linux启动过程（开机启动顺序）
++ 第一步－－加载BIOS
+
++ 第二步－－读取MBR
+
++ 第三步－－Boot Loader
+
++ 第四步－－加载内核
+
++ 第五步－－用户层init依据inittab文件来设定运行等级
+
++ 第六步－－init进程执行rc.sysinit
+
++ 第七步－－启动内核模块
+
++ 第八步－－执行不同运行级别的脚本程序
+
++ 第九步－－执行/etc/rc.d/rc.local
+
++ 第十步－－执行/bin/login程序，进入登录状态
+#Linux模块
++ rfcomm
+
++ bluetooth
+
++ videodev
+
++ videobuf2_vmalloc
+
++ videobuf2_memops
+
++ videobuf2_core
+
++ media
+
++ memstick
