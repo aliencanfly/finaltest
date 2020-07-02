@@ -65,14 +65,30 @@
 
 + 命令1|命令2|命令3...
 ## 4.系统命令
-date ：显示当前系统时间
++ date ：显示当前系统时间
 
-​	clear：清屏
++ clear：清屏
 
-​	reboot：重启linux
++ reboot：重启linux
 
-​	shutdown：关机
++ shutdown：关机
 
-​	ps -ef：查看当前系统进程
++ ps -ef：查看当前系统进程
 
-​	kill -pid ：结束一个进程，pid是由ps -ef查出来的
++ kill -pid ：结束一个进程，pid是由ps -ef查出来的
+## 5.压缩解压命令
++ tar 参数 要压缩或解压的文件或目录：压缩（归档），文件扩展名为tar.gz
+
+		参数包括： z 压缩
+
+							c 创建压缩文档
+
+							v 显示压缩，解压过程中处理的文件名
+
+	创建归档文件，如：
+
+			 tar -zcvf test.tar.gz 文件名
+
++ tar -tf 压缩文件名：查看归档文件的内容
+
++ tar -zxvf 压缩文件 -C 目标目录：解压文件到目标目录下，默认是当前目录
