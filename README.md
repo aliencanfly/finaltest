@@ -143,7 +143,7 @@ r代表可读，用4表示。 w 代表可写，用2表示。 x 代表可执行�
 + 第九步－－执行/etc/rc.d/rc.local
 
 + 第十步－－执行/bin/login程序，进入登录状态
-#Linux模块
+# Linux模块
 + rfcomm
 
 + bluetooth
