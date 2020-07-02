@@ -161,4 +161,3 @@ r代表可读，用4表示。 w 代表可写，用2表示。 x 代表可执行�
 + media
 
 + memstick
-##awdwqwqqweq
